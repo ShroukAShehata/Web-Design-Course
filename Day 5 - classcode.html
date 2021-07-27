@@ -1,0 +1,115 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Day 5 Code </title>
+    <style>
+      .main {color:purple}
+
+      a.websites {display: block;}
+      li.drinks {display: inline}
+      #e1 {display: none}
+      #e2 {visibility: hidden}
+
+      .first {background-color:red; height:40px; color:white; margin: 20px 30px;
+              position: static;}
+      .second {background-color:blue; height:40px; color:white;
+              position:relative; right:10px; top:10px }
+      .third {background-color:green; height:40px; color:white; width:120px;
+              position:fixed;}
+      .fourth {background-color:yellow; height:40px; color:white;}
+
+      #e3 {float:right; width:25%  }
+      #e4 {clear:left; padding: 50px 20px; width:70%; height:150px; font-size:30px; padding:5px; overflow:scroll;  text-align: justify; background-color: pink;}
+
+      /* * {box-sizing: border-box;} */
+      li.navbar {display:inline; float:left; width:20%; padding:15px; background-color:blue; text-align:center;}
+      li.navbar:hover {background-color: grey; color:white;}
+      li.navbar:active {background-color: green}
+
+      .Italy {float:left; width:30%; padding:40px 10px; height:250px}
+      .Italy {opacity: 0.6}
+      .Italy:hover {opacity: 1}
+
+      .info {clear:left; line-height:20px;}
+      .info:hover {background-color: yellow;}
+
+      .drop {position:relative; display:block;}
+      .dropitems { position:relative; display:none; background-color:grey; padding:10px; width:150px; border-bottom:1px solid black}
+      .drop:hover .dropitems {display:block;}
+      .dropitems:hover {background-color: green}
+      .btn {cursor:pointer; background-color:red; color:white; padding;20px; width:120px; height:50px;}
+      .btn:hover {background-color:black }
+
+
+
+    </style>
+
+  </head>
+  <body>
+         <!-- display -->
+    <p> we are in <span class=main> we school </span> </p>
+    <p> we are in <div> we school </div> </p>
+<br>
+    <a class=websites href="https://www.google.com/" target="_blank"> Google </a>
+    <a class=websites href="https://www.youtube.com/" target="_blank"> Youtube </a>
+    <a class=websites href="https://www.pinterest.com/" target="_blank"> Pinterest </a>
+<br>
+    <ul>
+      <li class=drinks> coffee </li>
+      <li class=drinks> tea </li>
+      <li class=drinks> milk </li>
+    </ul>
+
+    <h1 id=e1> We School </h1>
+    <p> element will be hidden without considering it's space </p>
+    <h1 id=e2> We School </h1>
+    <p> element will be hidden with considering it's space </p>
+<br><hr>  <!-- position -->
+    <div class=first> First </div>
+    <div class=second> Second </div>
+    <div class=third> Third </div>
+    <div class=fourth> Fourth </div>
+<br><hr>
+    <div>   <!-- overflow , float -->
+      <img id=e3 src="pic.jfif">
+      <p id=e4> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+<br><br>
+    <ul>
+      <li class=navbar> Home </li>
+      <li class=navbar> About </li>
+      <li class=navbar> History </li>
+      <li class=navbar> Gallery </li>
+    </ul>
+<br><br>
+  <div class=Gallery>
+    <img class=Italy src="1.jfif"> </img>
+    <img class=Italy src="2.jfif"> </img>
+    <img class=Italy src="3.jfif"> </img>
+  </div>
+<br>  <!--Pseudo classes (states)-->
+<div class=info>
+  <h2> WE School </h2>
+  <p> WE School was established in 2020 </p>
+</div>
+<br><hr>
+<div class=drop>
+  <button class=btn> DropDown </button>
+  <div>
+    <a class=dropitems href="https://www.google.com/" target="_blank"> Google </a>
+    <a class=dropitems href="https://www.youtube.com/" target="_blank"> Youtube </a>
+    <a class=dropitems href="https://www.pinterest.com/" target="_blank"> Pinterest </a>
+  </div>
+</div>
+<br> <hr>
+<a href="1.jfif" target="_blank"> <img src="1.jfif"> </a>
+<a href="2.jfif" target="_blank"> <img src="2.jfif"> </a>
+<a href="3.jfif" target="_blank"> <img src="3.jfif"> </a>
+
+
+  </body>
+</html>
