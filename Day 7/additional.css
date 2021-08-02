@@ -1,0 +1,20 @@
+header {height:80px; background-color:grey; text-align:center; font-size:40px; border-bottom:3px solid black}
+
+.flex-container {display:flex; background-color:powderblue; height:50px; margin-top:10px;}
+.flex-container a {background-color:pink; color:darkblue; font-weight:bold; width:20%; text-align:center; padding-top:10px; border: 1px solid white;}
+
+.flex-container-2 {display:flex; background-color:lightgrey; margin-top:20px; height:250px}
+.flex-container-2 article {padding-left:30px;}
+.flex-container-2 img {margin:15px}
+
+.flex-container-3 {display:flex; margin:20px 0px; background-color:blue}
+.flex-container-3 article {color:white; padding:20px;}
+.flex-container-3 video {margin:20px}
+
+.flex-container-4 {display:flex; background-color:pink; margin:10px}
+.flex-container-4 figure figcaption {text-align:center}
+
+
+footer {background-color:grey; text-align:center; height:50px; padding-top:5px; font-weight:bold}
+
+#e1 {direction:rtl}
